@@ -1,12 +1,12 @@
 import React from "react";
 import { Layout } from "../components/index";
 
-const About = () => {
+const Tags = () => {
   return (
     <Layout>
-      <div>About</div>
+      <div>Tags</div>
     </Layout>
   );
 };
 
-export default About;
+export default Tags;

@@ -1,13 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
-import Layout from "../components/layout/Layout";
+import { Layout } from "../components/index";
 
 const Home = () => {
-  return (
-    <Layout>
-      <h1>dsads</h1>
-    </Layout>
-  );
+  return <Layout>home</Layout>;
 };
 
 export default Home;
