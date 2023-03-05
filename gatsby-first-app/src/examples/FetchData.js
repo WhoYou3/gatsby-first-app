@@ -24,7 +24,7 @@ const getData = graphql`
 const FetchData = () => {
   const data = useStaticQuery(getData);
 
-  return <div>dsadsa</div>;
+  return <div></div>;
 };
 
 export default FetchData;
