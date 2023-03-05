@@ -544,7 +544,7 @@ form > *:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: var(--borderRadius);
 }
 .hero-text {
