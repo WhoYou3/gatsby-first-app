@@ -3,6 +3,7 @@ import { Layout } from "../components/index";
 import { StaticImage } from "gatsby-plugin-image";
 import photo from "../assets/images/main.jpeg";
 import FetchData from "../examples/FetchData";
+import AllRecipes from "../components/allrecipes/AllRecipes";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
             </div>
           </div>
         </header>
+        <AllRecipes />
       </main>
     </Layout>
   );
