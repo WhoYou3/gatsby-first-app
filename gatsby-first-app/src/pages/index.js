@@ -4,10 +4,12 @@ import { StaticImage } from "gatsby-plugin-image";
 import photo from "../assets/images/main.jpeg";
 import FetchData from "../examples/FetchData";
 import AllRecipes from "../components/allrecipes/AllRecipes";
+import SEO from "../components/SEO/SEO";
 
 const Home = () => {
   return (
     <Layout>
+      <SEO title="home" />
       <FetchData />
       <main className="page">
         <header className="hero">
